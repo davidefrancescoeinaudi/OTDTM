@@ -7,10 +7,7 @@
   "detail": {
     "contributors": [
       {
-        "name": "Tom Brown"
-      },
-      {
-        "name": "Albert Moneypenny"
+        "name": "Davide Einaudi"
       }
     ],
     "diagrams": [
@@ -889,6 +886,6 @@
         }
       }
     ],
-    "reviewer": "Jane Smith"
+    "reviewer": ""
   }
 }
