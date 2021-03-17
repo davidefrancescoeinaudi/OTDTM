@@ -875,8 +875,8 @@
               },
               "vertices": [
                 {
-                  "x": 1145,
-                  "y": 398
+                  "x": 1199,
+                  "y": 381
                 }
               ],
               "id": "21d25b13-7051-4328-bb0c-88925793f746",
@@ -1037,7 +1037,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Response",
+                      "text": "API Response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
