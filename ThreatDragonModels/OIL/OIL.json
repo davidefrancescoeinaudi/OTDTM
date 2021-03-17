@@ -870,8 +870,8 @@
                 "y": 122
               },
               "target": {
-                "x": 922,
-                "y": 288
+                "x": 953,
+                "y": 352
               },
               "vertices": [
                 {
@@ -1052,6 +1052,32 @@
                 },
                 ".connection": {
                   "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1294,
+                "y": 465
+              },
+              "angle": 0,
+              "id": "587274d1-220f-46ba-b003-c6ad6f9dcf03",
+              "z": 34,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Avaloq DB"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             }
