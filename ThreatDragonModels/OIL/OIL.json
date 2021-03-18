@@ -656,32 +656,6 @@
               }
             },
             {
-              "type": "tm.Store",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 492,
-                "y": 356
-              },
-              "angle": 0,
-              "id": "00f75bd4-62ce-41ee-8db4-d4c030e07ce0",
-              "z": 5,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Message Queue"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Process",
               "size": {
                 "width": 100,
@@ -704,6 +678,25 @@
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 479,
+                "y": 357
+              },
+              "angle": 0,
+              "id": "14d33bb3-09d4-4428-b63d-6d23e4ae0eb1",
+              "z": 7,
+              "attrs": {
+                "text": {
+                  "text": "store 5"
                 }
               }
             }
