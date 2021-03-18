@@ -24,8 +24,8 @@
                 "height": 80
               },
               "position": {
-                "x": 90,
-                "y": 28
+                "x": 88,
+                "y": 27
               },
               "angle": 0,
               "id": "518647ee-8ee4-44ec-8c62-a91609c78dad",
@@ -50,8 +50,8 @@
                 "height": 100
               },
               "position": {
-                "x": 312,
-                "y": 236
+                "x": 370,
+                "y": 197
               },
               "angle": 0,
               "id": "827e4ee3-c8df-4b25-8023-550e59d3fdb2",
@@ -76,8 +76,8 @@
                 "height": 80
               },
               "position": {
-                "x": 556,
-                "y": 6
+                "x": 432,
+                "y": 1
               },
               "angle": 0,
               "id": "f9ffed91-a938-4355-82db-5ee342382568",
@@ -88,7 +88,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Online Repository"
+                  "text": "HM Online Repository"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -123,8 +123,8 @@
                 "height": 100
               },
               "position": {
-                "x": 529,
-                "y": 418
+                "x": 536,
+                "y": 394
               },
               "angle": 0,
               "id": "39000e6e-c0a8-4745-865d-6d2db343657b",
@@ -329,8 +329,8 @@
                 "y": 135
               },
               "target": {
-                "x": 189,
-                "y": 257
+                "x": 25,
+                "y": 310
               },
               "vertices": [],
               "id": "381e21c2-ed2a-4134-8b9e-f5c721ebbea0",
@@ -344,8 +344,8 @@
                 "height": 100
               },
               "position": {
-                "x": 100,
-                "y": 345
+                "x": 55,
+                "y": 347
               },
               "angle": 0,
               "id": "b3b0b1a9-b7e9-4cc8-96b0-aae687e04b9c",
@@ -374,8 +374,8 @@
               },
               "vertices": [
                 {
-                  "x": 173,
-                  "y": 305
+                  "x": 61,
+                  "y": 253
                 }
               ],
               "id": "bd2970ae-3bfd-444d-9836-37053afaa73f",
@@ -413,15 +413,11 @@
               },
               "vertices": [
                 {
-                  "x": 49,
-                  "y": 261
-                },
-                {
-                  "x": 68,
-                  "y": 173
+                  "x": 185,
+                  "y": 279
                 }
               ],
-              "id": "637bc005-ad8f-43aa-b30a-24bbc7f46aae",
+              "id": "a38d2bf0-a506-401e-aae5-785a0edb946b",
               "labels": [
                 {
                   "position": 0.5,
