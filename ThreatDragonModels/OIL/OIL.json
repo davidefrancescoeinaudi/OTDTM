@@ -351,7 +351,7 @@
         }
       },
       {
-        "title": "Message Integration Data Flow",
+        "title": "Message Out Data Flow",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 1,
         "diagramJson": {
