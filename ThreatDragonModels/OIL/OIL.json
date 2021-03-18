@@ -349,6 +349,11 @@
           "height": 2045.9228515625,
           "width": 3854.98046875
         }
+      },
+      {
+        "title": "Message Integration Data Flow",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 1
       }
     ],
     "reviewer": ""
