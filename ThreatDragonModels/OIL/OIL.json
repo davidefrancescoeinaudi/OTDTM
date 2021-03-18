@@ -427,7 +427,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 2"
+                  "text": "Repository"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -453,7 +453,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 3"
+                  "text": "Message Queue"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
