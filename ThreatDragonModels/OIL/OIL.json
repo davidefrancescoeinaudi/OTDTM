@@ -505,7 +505,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 5"
+                  "text": "Avaloq\nMessage\nInterface"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -519,8 +519,8 @@
                 "height": 80
               },
               "position": {
-                "x": 774,
-                "y": 389
+                "x": 734,
+                "y": 405
               },
               "angle": 0,
               "id": "652839ee-0dc8-4596-ab38-c6ea1e81fdbb",
