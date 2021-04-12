@@ -76,7 +76,7 @@
                 "height": 80
               },
               "position": {
-                "x": 356,
+                "x": 355,
                 "y": 1
               },
               "angle": 0,
@@ -123,7 +123,7 @@
                 "height": 100
               },
               "position": {
-                "x": 555,
+                "x": 554,
                 "y": 399
               },
               "angle": 0,
@@ -248,7 +248,7 @@
               ],
               "z": 32,
               "hasOpenThreats": false,
-              "protocol": "PL/SQL",
+              "protocol": "JDBC, PL/SQL",
               "isPublicNetwork": true,
               "attrs": {
                 ".marker-target": {
@@ -289,7 +289,7 @@
               ],
               "z": 33,
               "hasOpenThreats": false,
-              "protocol": "PL/SQL",
+              "protocol": "JDBC, PL/SQL",
               "isPublicNetwork": true,
               "attrs": {
                 ".marker-target": {
@@ -307,8 +307,8 @@
                 "height": 80
               },
               "position": {
-                "x": 772,
-                "y": 429
+                "x": 748,
+                "y": 425
               },
               "angle": 0,
               "id": "587274d1-220f-46ba-b003-c6ad6f9dcf03",
