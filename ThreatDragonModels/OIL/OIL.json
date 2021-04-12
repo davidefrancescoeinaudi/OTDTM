@@ -332,14 +332,23 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 419,
-                "y": 131
+                "x": 203,
+                "y": 420
               },
               "target": {
                 "x": 25,
                 "y": 310
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 206,
+                  "y": 259
+                },
+                {
+                  "x": 143,
+                  "y": 216
+                }
+              ],
               "id": "381e21c2-ed2a-4134-8b9e-f5c721ebbea0",
               "z": 35,
               "attrs": {}
@@ -532,6 +541,27 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 177,
+                "y": 129
+              },
+              "target": {
+                "x": 396,
+                "y": 139
+              },
+              "vertices": [
+                {
+                  "x": 289,
+                  "y": 163
+                }
+              ],
+              "id": "aca83a84-0c5c-4352-8c2f-b57d07c2f651",
+              "z": 41,
+              "attrs": {}
             }
           ]
         },
