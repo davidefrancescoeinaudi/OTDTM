@@ -137,7 +137,7 @@
                   "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
-                  "text": "Avaloq\nMessage\nInterface"
+                  "text": "Avaloq\nMessage\nInterface (AMI)"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
