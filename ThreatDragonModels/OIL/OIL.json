@@ -50,7 +50,7 @@
                 "height": 100
               },
               "position": {
-                "x": 368,
+                "x": 366,
                 "y": 197
               },
               "angle": 0,
@@ -76,8 +76,8 @@
                 "height": 80
               },
               "position": {
-                "x": 354,
-                "y": 1
+                "x": 368,
+                "y": 3
               },
               "angle": 0,
               "id": "f9ffed91-a938-4355-82db-5ee342382568",
@@ -350,8 +350,8 @@
                 "height": 100
               },
               "position": {
-                "x": 55,
-                "y": 347
+                "x": 59,
+                "y": 329
               },
               "angle": 0,
               "id": "b3b0b1a9-b7e9-4cc8-96b0-aae687e04b9c",
@@ -521,6 +521,7 @@
               ],
               "z": 40,
               "hasOpenThreats": false,
+              "protocol": "LDAP (Oracle), JDBC (MariaDB)",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
