@@ -164,7 +164,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "REST response",
+                      "text": "API response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -173,6 +173,7 @@
               ],
               "z": 30,
               "hasOpenThreats": false,
+              "protocol": "REST",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -203,7 +204,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "REST request",
+                      "text": "API request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -212,6 +213,7 @@
               ],
               "z": 31,
               "hasOpenThreats": false,
+              "protocol": "REST",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -237,7 +239,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Direct call?",
+                      "text": "AMI call",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -246,6 +248,8 @@
               ],
               "z": 32,
               "hasOpenThreats": false,
+              "protocol": "PL/SQL",
+              "isPublicNetwork": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -276,7 +280,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "response?",
+                      "text": "AMI response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -285,6 +289,8 @@
               ],
               "z": 33,
               "hasOpenThreats": false,
+              "protocol": "PL/SQL",
+              "isPublicNetwork": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
