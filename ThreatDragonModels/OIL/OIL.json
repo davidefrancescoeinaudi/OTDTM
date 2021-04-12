@@ -307,8 +307,8 @@
                 "height": 80
               },
               "position": {
-                "x": 748,
-                "y": 425
+                "x": 749,
+                "y": 433
               },
               "angle": 0,
               "id": "587274d1-220f-46ba-b003-c6ad6f9dcf03",
@@ -403,6 +403,7 @@
               ],
               "z": 37,
               "hasOpenThreats": false,
+              "protocol": "HTTP",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -423,14 +424,17 @@
               },
               "vertices": [
                 {
-                  "x": 185,
-                  "y": 279
+                  "x": 168,
+                  "y": 286
                 }
               ],
               "id": "a38d2bf0-a506-401e-aae5-785a0edb946b",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.45644365681037485,
+                    "offset": -2.0929026135542927
+                  },
                   "attrs": {
                     "text": {
                       "text": "Token response",
@@ -442,6 +446,7 @@
               ],
               "z": 38,
               "hasOpenThreats": false,
+              "protocol": "REST",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
