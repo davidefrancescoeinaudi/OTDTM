@@ -50,7 +50,7 @@
                 "height": 100
               },
               "position": {
-                "x": 369,
+                "x": 368,
                 "y": 197
               },
               "angle": 0,
@@ -520,66 +520,6 @@
                 }
               ],
               "z": 40,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Store",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 643,
-                "y": 150
-              },
-              "angle": 0,
-              "id": "6d4e4b48-57c8-43a0-a3eb-b197fd9e1e19",
-              "z": 42,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Online HM Repository"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "6d4e4b48-57c8-43a0-a3eb-b197fd9e1e19"
-              },
-              "target": {
-                "id": "827e4ee3-c8df-4b25-8023-550e59d3fdb2"
-              },
-              "vertices": [],
-              "id": "54cbac5a-8d5e-4fa6-bfd2-9d2be5ab19c3",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "reads meta model",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 43,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
