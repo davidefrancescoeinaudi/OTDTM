@@ -24,8 +24,8 @@
                 "height": 80
               },
               "position": {
-                "x": 85,
-                "y": 27
+                "x": 83,
+                "y": 29
               },
               "angle": 0,
               "id": "518647ee-8ee4-44ec-8c62-a91609c78dad",
@@ -50,7 +50,7 @@
                 "height": 100
               },
               "position": {
-                "x": 368,
+                "x": 366,
                 "y": 194
               },
               "angle": 0,
@@ -77,13 +77,14 @@
                 "height": 80
               },
               "position": {
-                "x": 367,
-                "y": 3
+                "x": 365,
+                "y": 2
               },
               "angle": 0,
               "id": "f9ffed91-a938-4355-82db-5ee342382568",
               "z": 27,
               "hasOpenThreats": false,
+              "isEncrypted": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -124,7 +125,7 @@
                 "height": 100
               },
               "position": {
-                "x": 566,
+                "x": 565,
                 "y": 401
               },
               "angle": 0,
@@ -533,6 +534,7 @@
               "z": 40,
               "hasOpenThreats": false,
               "protocol": "LDAP (Oracle), JDBC (MariaDB)",
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
