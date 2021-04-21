@@ -50,7 +50,7 @@
                 "height": 100
               },
               "position": {
-                "x": 366,
+                "x": 365,
                 "y": 194
               },
               "angle": 0,
@@ -255,34 +255,16 @@
                 }
               ],
               "z": 32,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "protocol": "JDBC, PL/SQL",
               "isPublicNetwork": true,
-              "threats": [
-                {
-                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
-                  "title": "Generic tampering threat",
-                  "type": "Tampering",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic tampering threat"
-                },
-                {
-                  "ruleId": "c1cae982-3e92-4bb2-b50b-ea51137fc3a7",
-                  "title": "Use encryption",
-                  "type": "Information disclosure",
-                  "status": "Open",
-                  "severity": "High",
-                  "description": "Unencrypted data sent over a public network may be intercepted and read by an attacker.",
-                  "mitigation": "Data sent over a public network should be encrypted either at the message or transport level."
-                }
-              ],
+              "threats": [],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasOpenThreats isInScope"
+                  "class": "marker-target hasNoOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasOpenThreats isInScope"
+                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -315,34 +297,16 @@
                 }
               ],
               "z": 33,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "protocol": "JDBC, PL/SQL",
               "isPublicNetwork": true,
-              "threats": [
-                {
-                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
-                  "title": "Generic tampering threat",
-                  "type": "Tampering",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "A generic tampering threat"
-                },
-                {
-                  "ruleId": "c1cae982-3e92-4bb2-b50b-ea51137fc3a7",
-                  "title": "Use encryption",
-                  "type": "Information disclosure",
-                  "status": "Open",
-                  "severity": "High",
-                  "description": "Unencrypted data sent over a public network may be intercepted and read by an attacker.",
-                  "mitigation": "Data sent over a public network should be encrypted either at the message or transport level."
-                }
-              ],
+              "threats": [],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasOpenThreats isInScope"
+                  "class": "marker-target hasNoOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasOpenThreats isInScope"
+                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -643,6 +607,70 @@
                 }
               ],
               "z": 42,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 712,
+                "y": 114
+              },
+              "angle": 0,
+              "id": "cb0dfdbf-17d6-4a7f-8e2f-b5c17d1a1c26",
+              "z": 43,
+              "hasOpenThreats": false,
+              "storesCredentials": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Kubernetes Secrets"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "cb0dfdbf-17d6-4a7f-8e2f-b5c17d1a1c26"
+              },
+              "target": {
+                "id": "827e4ee3-c8df-4b25-8023-550e59d3fdb2"
+              },
+              "vertices": [],
+              "id": "f0005d13-9289-4501-8077-d479b4578fea",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4687223720248841,
+                    "offset": -17.518170492419273
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "uses AMI admin creds",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 44,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
