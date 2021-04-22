@@ -624,8 +624,8 @@
                 "height": 80
               },
               "position": {
-                "x": 682,
-                "y": 128
+                "x": 697,
+                "y": 141
               },
               "angle": 0,
               "id": "cb0dfdbf-17d6-4a7f-8e2f-b5c17d1a1c26",
@@ -672,6 +672,7 @@
               ],
               "z": 44,
               "hasOpenThreats": false,
+              "outOfScope": false,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
