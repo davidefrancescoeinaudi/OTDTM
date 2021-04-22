@@ -157,14 +157,17 @@
               },
               "vertices": [
                 {
-                  "x": 311,
-                  "y": 117
+                  "x": 294,
+                  "y": 120
                 }
               ],
               "id": "384f2a9e-bba8-4655-804d-607c896e886f",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.5406993345079162,
+                    "offset": 5.27890306426337
+                  },
                   "attrs": {
                     "text": {
                       "text": "API response",
@@ -691,6 +694,31 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 181,
+                "y": 159
+              },
+              "target": {
+                "x": 389,
+                "y": 107
+              },
+              "vertices": [
+                {
+                  "x": 252,
+                  "y": 166
+                },
+                {
+                  "x": 359,
+                  "y": 130
+                }
+              ],
+              "id": "6360be60-689d-4313-b920-a75726720ee0",
+              "z": 45,
+              "attrs": {}
             }
           ]
         },
