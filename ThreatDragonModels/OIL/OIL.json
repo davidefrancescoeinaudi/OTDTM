@@ -666,7 +666,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "uses AMI admin creds",
+                      "text": "reads AMI admin\ncreds",
                       "font-weight": "400",
                       "font-size": "small"
                     }
