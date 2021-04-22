@@ -625,7 +625,7 @@
               "threats": [
                 {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
-                  "title": "Generic informtion disclosure threat",
+                  "title": "AMI credentials in plaintext",
                   "type": "Information disclosure",
                   "status": "Mitigated",
                   "severity": "Medium",
@@ -635,7 +635,7 @@
                 {
                   "status": "Mitigated",
                   "severity": "Medium",
-                  "title": "etcd least privilege",
+                  "title": "Missing etcd least privilege",
                   "type": "Elevation of privilege",
                   "description": "Allowing components within the cluster to access the master etcd instance with read or write access to the full keyspace is equivalent to granting cluster-admin access.",
                   "mitigation": "Use etcd ACLs to restrict read/write access to a subset of they keyspace is strongly recommended"
