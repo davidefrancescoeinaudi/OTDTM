@@ -614,8 +614,8 @@
                 "height": 80
               },
               "position": {
-                "x": 670,
-                "y": 141
+                "x": 667,
+                "y": 143
               },
               "angle": 0,
               "id": "cb0dfdbf-17d6-4a7f-8e2f-b5c17d1a1c26",
@@ -631,6 +631,14 @@
                   "severity": "Medium",
                   "description": "AMI CLXE$EBANKINGADMIN credentials are stored in etcd which, by default, is not encrypted and neither are its secrets.",
                   "mitigation": "Confidentiality risk must be mitigated by guaranteeing encryption at rest. This can be done by enabling Kubernetes encryption at rest feature. The top-level/master key should ideally be stored outside of the cluster."
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "etcd least privilege",
+                  "type": "Elevation of privilege",
+                  "description": "Allowing components within the cluster to access the master etcd instance with read or write access to the full keyspace is equivalent to granting cluster-admin access.",
+                  "mitigation": "Use etcd ACLs to restrict read/write access to a subset of they keyspace is strongly recommended"
                 }
               ],
               "attrs": {
