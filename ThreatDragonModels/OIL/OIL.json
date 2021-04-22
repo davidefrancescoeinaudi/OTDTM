@@ -260,8 +260,9 @@
               "z": 32,
               "hasOpenThreats": false,
               "protocol": "JDBC, PL/SQL",
-              "isPublicNetwork": true,
+              "isPublicNetwork": false,
               "threats": [],
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -302,8 +303,9 @@
               "z": 33,
               "hasOpenThreats": false,
               "protocol": "JDBC, PL/SQL",
-              "isPublicNetwork": true,
+              "isPublicNetwork": false,
               "threats": [],
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
