@@ -133,6 +133,7 @@
               "z": 29,
               "hasOpenThreats": false,
               "outOfScope": true,
+              "reasonOutOfScope": "Avaloq Core Banking System security assessment is not feasible as out of CLX System boundaries.",
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isOutOfScope"
@@ -325,6 +326,7 @@
               "z": 34,
               "hasOpenThreats": false,
               "outOfScope": true,
+              "reasonOutOfScope": "Avaloq Core Banking System security assessment is not feasible as out of CLX System boundaries.",
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isOutOfScope"
@@ -507,6 +509,7 @@
               "z": 39,
               "hasOpenThreats": false,
               "outOfScope": true,
+              "reasonOutOfScope": "Avaloq Core Banking System security assessment is not feasible as out of CLX System boundaries.",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
