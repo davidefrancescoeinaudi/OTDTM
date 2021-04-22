@@ -77,8 +77,8 @@
                 "height": 80
               },
               "position": {
-                "x": 365,
-                "y": 2
+                "x": 363,
+                "y": 1
               },
               "angle": 0,
               "id": "f9ffed91-a938-4355-82db-5ee342382568",
@@ -176,7 +176,8 @@
               ],
               "z": 30,
               "hasOpenThreats": false,
-              "protocol": "REST",
+              "protocol": "HTTP",
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -216,7 +217,8 @@
               ],
               "z": 31,
               "hasOpenThreats": false,
-              "protocol": "REST",
+              "protocol": "HTTP",
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -425,7 +427,8 @@
               ],
               "z": 37,
               "hasOpenThreats": false,
-              "protocol": "HTTP",
+              "protocol": "HTTP GET",
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -468,7 +471,8 @@
               ],
               "z": 38,
               "hasOpenThreats": false,
-              "protocol": "REST",
+              "protocol": "HTTP",
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -556,27 +560,6 @@
               }
             },
             {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "x": 177,
-                "y": 129
-              },
-              "target": {
-                "x": 396,
-                "y": 139
-              },
-              "vertices": [
-                {
-                  "x": 289,
-                  "y": 163
-                }
-              ],
-              "id": "aca83a84-0c5c-4352-8c2f-b57d07c2f651",
-              "z": 41,
-              "attrs": {}
-            },
-            {
               "type": "tm.Flow",
               "smooth": true,
               "source": {
@@ -611,6 +594,8 @@
               ],
               "z": 42,
               "hasOpenThreats": false,
+              "protocol": "Java",
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -627,7 +612,7 @@
                 "height": 80
               },
               "position": {
-                "x": 697,
+                "x": 670,
                 "y": 141
               },
               "angle": 0,
@@ -640,7 +625,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Kubernetes Secrets"
+                  "text": "etcd secret data"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -676,6 +661,7 @@
               "z": 44,
               "hasOpenThreats": false,
               "outOfScope": false,
+              "protocol": "SSL/TLS",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
