@@ -1084,8 +1084,8 @@
                 "height": 80
               },
               "position": {
-                "x": 697,
-                "y": 222
+                "x": 685,
+                "y": 229
               },
               "angle": 0,
               "id": "5c371b27-4acc-4590-9d5d-434bdb5ed1f7",
@@ -1174,14 +1174,19 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 241,
-                "y": 175
+                "x": 263,
+                "y": 210
               },
               "target": {
                 "x": 441,
                 "y": 150
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 303,
+                  "y": 174
+                }
+              ],
               "id": "3de7e7de-95bc-4dbe-94be-33a39f1c6ffd",
               "z": 18,
               "attrs": {}
