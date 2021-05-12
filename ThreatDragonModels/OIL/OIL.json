@@ -766,8 +766,8 @@
                 "height": 100
               },
               "position": {
-                "x": 55,
-                "y": 302
+                "x": 40,
+                "y": 303
               },
               "angle": 0,
               "id": "f7c3c4e0-ea69-4264-8347-b360a106da04",
@@ -1059,7 +1059,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "JMS API call",
+                      "text": "Queue connection +\nJMS API call",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1115,6 +1115,10 @@
               },
               "vertices": [
                 {
+                  "x": 468,
+                  "y": 334
+                },
+                {
                   "x": 500,
                   "y": 359
                 }
@@ -1137,6 +1141,7 @@
               ],
               "z": 15,
               "hasOpenThreats": false,
+              "protocol": "AMQP",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -1203,7 +1208,16 @@
                 "x": 350,
                 "y": 346
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 480,
+                  "y": 307
+                },
+                {
+                  "x": 498,
+                  "y": 337
+                }
+              ],
               "id": "35a911ff-b44d-4efc-bedb-cd985232c43a",
               "z": 19,
               "attrs": {}
