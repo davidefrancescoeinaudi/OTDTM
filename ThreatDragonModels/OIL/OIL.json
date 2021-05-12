@@ -1327,7 +1327,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 20",
+                      "text": "Queries",
                       "font-weight": "400",
                       "font-size": "small"
                     }
