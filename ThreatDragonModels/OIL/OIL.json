@@ -766,8 +766,8 @@
                 "height": 100
               },
               "position": {
-                "x": 59,
-                "y": 250
+                "x": 55,
+                "y": 302
               },
               "angle": 0,
               "id": "f7c3c4e0-ea69-4264-8347-b360a106da04",
@@ -792,8 +792,8 @@
                 "height": 80
               },
               "position": {
-                "x": 414,
-                "y": 26
+                "x": 410,
+                "y": 14
               },
               "angle": 0,
               "id": "728d1a59-04c8-470c-ab1e-f6ca9afd1e84",
@@ -818,8 +818,8 @@
                 "height": 80
               },
               "position": {
-                "x": 289,
-                "y": 236
+                "x": 371,
+                "y": 232
               },
               "angle": 0,
               "id": "f1881952-cc2c-40fa-b44a-14581c31fc49",
@@ -844,8 +844,8 @@
                 "height": 100
               },
               "position": {
-                "x": 571,
-                "y": 348
+                "x": 551,
+                "y": 327
               },
               "angle": 0,
               "id": "8f6d98a8-3329-43a5-bf05-e3a1a21b3a59",
@@ -856,7 +856,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "OIL Message\nHM"
+                  "text": "OIL MsgOut\nHM"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -938,7 +938,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 7",
+                      "text": "Authorisation request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -969,10 +969,13 @@
               "id": "2d067508-2523-4a02-8927-2f39b5051dba",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.3628256962098199,
+                    "offset": 18.306692218610443
+                  },
                   "attrs": {
                     "text": {
-                      "text": "flow 8",
+                      "text": "Token response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1022,7 +1025,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 10",
+                      "text": "Queries",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1056,7 +1059,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 11",
+                      "text": "Async API call",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1078,11 +1081,12 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "f1881952-cc2c-40fa-b44a-14581c31fc49"
+                "x": 724,
+                "y": 92
               },
               "target": {
-                "x": 293,
-                "y": 103
+                "x": 1010,
+                "y": 38
               },
               "vertices": [],
               "id": "42dc87fb-09a1-46ee-98d9-db452d001c36",
@@ -1116,8 +1120,8 @@
                 "height": 80
               },
               "position": {
-                "x": 522,
-                "y": 173
+                "x": 636,
+                "y": 213
               },
               "angle": 0,
               "id": "5c371b27-4acc-4590-9d5d-434bdb5ed1f7",
@@ -1144,14 +1148,22 @@
               "target": {
                 "id": "8f6d98a8-3329-43a5-bf05-e3a1a21b3a59"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 500,
+                  "y": 359
+                }
+              ],
               "id": "ddc0f2dc-302b-41ce-8e4f-c6acbe96c910",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.5284365884125726,
+                    "offset": 18.1261307349616
+                  },
                   "attrs": {
                     "text": {
-                      "text": "flow 14",
+                      "text": "Async API call",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1173,17 +1185,14 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "8f6d98a8-3329-43a5-bf05-e3a1a21b3a59"
+                "x": 1023,
+                "y": 103
               },
               "target": {
-                "id": "f1881952-cc2c-40fa-b44a-14581c31fc49"
+                "x": 721,
+                "y": 155
               },
-              "vertices": [
-                {
-                  "x": 430,
-                  "y": 418
-                }
-              ],
+              "vertices": [],
               "id": "4a55a7b6-ad39-4d0b-8a76-3d2e9b50a5cc",
               "labels": [
                 {
@@ -1215,12 +1224,12 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 622,
-                "y": 602
+                "x": 620,
+                "y": 564
               },
               "target": {
-                "x": 835,
-                "y": 350
+                "x": 829,
+                "y": 371
               },
               "vertices": [
                 {
@@ -1234,6 +1243,22 @@
               ],
               "id": "c9f1d70a-1d62-4ec4-8f43-dd22863a6acf",
               "z": 17,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 241,
+                "y": 175
+              },
+              "target": {
+                "x": 441,
+                "y": 150
+              },
+              "vertices": [],
+              "id": "3de7e7de-95bc-4dbe-94be-33a39f1c6ffd",
+              "z": 18,
               "attrs": {}
             }
           ]
