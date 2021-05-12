@@ -1120,7 +1120,7 @@
                 "height": 80
               },
               "position": {
-                "x": 661,
+                "x": 660,
                 "y": 213
               },
               "angle": 0,
@@ -1132,7 +1132,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 13"
+                  "text": "Kubernetes etcd"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
