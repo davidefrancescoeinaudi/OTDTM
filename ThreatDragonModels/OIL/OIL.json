@@ -870,7 +870,7 @@
                 "height": 100
               },
               "position": {
-                "x": 773,
+                "x": 772,
                 "y": 480
               },
               "angle": 0,
@@ -897,8 +897,8 @@
                 "height": 80
               },
               "position": {
-                "x": 878,
-                "y": 387
+                "x": 889,
+                "y": 352
               },
               "angle": 0,
               "id": "652839ee-0dc8-4596-ab38-c6ea1e81fdbb",
@@ -1293,7 +1293,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 19",
+                      "text": "AMI call",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1310,12 +1310,46 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "1a585e03-f91f-4edd-a8aa-e7cde0125e1b"
+              },
+              "target": {
+                "id": "652839ee-0dc8-4596-ab38-c6ea1e81fdbb"
+              },
+              "vertices": [],
+              "id": "3cbe4f5f-3f68-4557-86a1-9d4cf5d5990c",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 20",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 21,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
           "height": 611.735107421875,
-          "width": 1038
+          "width": 1079
         }
       },
       {
