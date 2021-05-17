@@ -617,8 +617,8 @@
                 "height": 80
               },
               "position": {
-                "x": 667,
-                "y": 143
+                "x": 724,
+                "y": 122
               },
               "angle": 0,
               "id": "cb0dfdbf-17d6-4a7f-8e2f-b5c17d1a1c26",
@@ -718,6 +718,27 @@
               ],
               "id": "6360be60-689d-4313-b920-a75726720ee0",
               "z": 45,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 667,
+                "y": 110
+              },
+              "target": {
+                "x": 731,
+                "y": 242
+              },
+              "vertices": [
+                {
+                  "x": 698,
+                  "y": 212
+                }
+              ],
+              "id": "44bd64a1-4b9f-43e6-9d7d-fa9d736cef48",
+              "z": 46,
               "attrs": {}
             }
           ]
