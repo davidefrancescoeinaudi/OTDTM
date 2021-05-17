@@ -1534,7 +1534,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 25",
+                      "text": "JMS API call",
                       "font-weight": "400",
                       "font-size": "small"
                     }
