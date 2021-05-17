@@ -741,7 +741,7 @@
               },
               "position": {
                 "x": 131,
-                "y": 45
+                "y": 46
               },
               "angle": 0,
               "id": "6bf90656-16f0-499a-a55b-0594871f41da",
@@ -792,8 +792,8 @@
                 "height": 80
               },
               "position": {
-                "x": 409,
-                "y": 14
+                "x": 384,
+                "y": 1
               },
               "angle": 0,
               "id": "728d1a59-04c8-470c-ab1e-f6ca9afd1e84",
@@ -1085,8 +1085,8 @@
                 "height": 80
               },
               "position": {
-                "x": 745,
-                "y": 220
+                "x": 821,
+                "y": 39
               },
               "angle": 0,
               "id": "5c371b27-4acc-4590-9d5d-434bdb5ed1f7",
@@ -1422,6 +1422,74 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "5c371b27-4acc-4590-9d5d-434bdb5ed1f7"
+              },
+              "target": {
+                "id": "6bf90656-16f0-499a-a55b-0594871f41da"
+              },
+              "vertices": [
+                {
+                  "x": 663,
+                  "y": 102
+                },
+                {
+                  "x": 487,
+                  "y": 117
+                }
+              ],
+              "id": "6550c942-920b-4374-ab99-8178167d7ab1",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "reads RabbitMQ\ncreds",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 26,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 659,
+                "y": 39
+              },
+              "target": {
+                "x": 1022,
+                "y": 170
+              },
+              "vertices": [
+                {
+                  "x": 742,
+                  "y": 94
+                },
+                {
+                  "x": 892,
+                  "y": 180
+                }
+              ],
+              "id": "eb16f9ee-9013-4511-9ebf-68ef76932a7a",
+              "z": 27,
+              "attrs": {}
             }
           ]
         },
