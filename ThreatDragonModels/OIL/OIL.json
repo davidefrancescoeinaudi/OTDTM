@@ -968,6 +968,8 @@
               ],
               "z": 8,
               "hasOpenThreats": false,
+              "protocol": "HTTP",
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -1005,6 +1007,8 @@
               ],
               "z": 9,
               "hasOpenThreats": false,
+              "isEncrypted": true,
+              "protocol": "HTTP",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
