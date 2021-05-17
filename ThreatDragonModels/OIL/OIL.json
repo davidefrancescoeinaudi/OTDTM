@@ -865,8 +865,8 @@
                 "height": 100
               },
               "position": {
-                "x": 579,
-                "y": 367
+                "x": 572,
+                "y": 351
               },
               "angle": 0,
               "id": "8f6d98a8-3329-43a5-bf05-e3a1a21b3a59",
@@ -1391,7 +1391,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 21",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1430,7 +1430,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 22",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
