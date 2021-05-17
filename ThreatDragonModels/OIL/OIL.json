@@ -599,7 +599,7 @@
               ],
               "z": 42,
               "hasOpenThreats": false,
-              "protocol": "Java",
+              "protocol": "",
               "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
