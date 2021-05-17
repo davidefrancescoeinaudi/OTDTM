@@ -839,7 +839,7 @@
                 "height": 80
               },
               "position": {
-                "x": 344,
+                "x": 367,
                 "y": 196
               },
               "angle": 0,
@@ -1188,8 +1188,8 @@
               },
               "vertices": [
                 {
-                  "x": 480,
-                  "y": 307
+                  "x": 496,
+                  "y": 303
                 },
                 {
                   "x": 498,
@@ -1326,7 +1326,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Message\nprocessing"
+                  "text": "Message\nexchange\nrouting"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
