@@ -1257,7 +1257,7 @@
               "threats": [
                 {
                   "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
-                  "title": "AMI credentials in plaintext",
+                  "title": "AMI/RabbitMQ credentials in plaintext",
                   "type": "Information disclosure",
                   "status": "Open",
                   "severity": "Medium",
