@@ -2099,16 +2099,27 @@
               "angle": 0,
               "id": "532f500a-f9f4-4feb-85f1-09a25e8e1671",
               "z": 19,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "RabbitMQ credentials in plaintext",
+                  "type": "Information disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "RabbitMQ credentials are stored in etcd which, by default, is not encrypted and neither are its secrets.",
+                  "mitigation": "Use OAuth2 Client Credentials grant for RabbitMQ to verify the authentication of the Hub Module"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Kubernetes etcd"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -2180,16 +2191,27 @@
               "angle": 0,
               "id": "3ff2ae4a-a5ed-4b93-9b98-1d9814fd33d3",
               "z": 22,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Sensitive data exposure",
+                  "type": "Information disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "There is no confirmed mechanism for removing or obfuscating sensitive information based on relevant data classification assigned to data objects.",
+                  "mitigation": "Sensitive data should not be stored or logged unnecessarily. \nStrict permissions concerning which users can access logs must be verified prior to project rollout."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Kubernetes StandardOut"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
