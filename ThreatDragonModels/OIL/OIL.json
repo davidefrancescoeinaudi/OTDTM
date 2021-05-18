@@ -1927,6 +1927,8 @@
               ],
               "z": 14,
               "hasOpenThreats": false,
+              "isEncrypted": true,
+              "protocol": "AMQP",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -1961,6 +1963,8 @@
               ],
               "z": 15,
               "hasOpenThreats": false,
+              "isEncrypted": true,
+              "protocol": "AMQP",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
