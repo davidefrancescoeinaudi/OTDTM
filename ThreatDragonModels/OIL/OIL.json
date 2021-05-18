@@ -24,7 +24,7 @@
                 "height": 80
               },
               "position": {
-                "x": 81,
+                "x": 80,
                 "y": 29
               },
               "angle": 0,
@@ -50,8 +50,8 @@
                 "height": 100
               },
               "position": {
-                "x": 365,
-                "y": 194
+                "x": 359,
+                "y": 212
               },
               "angle": 0,
               "id": "827e4ee3-c8df-4b25-8023-550e59d3fdb2",
@@ -77,7 +77,7 @@
                 "height": 80
               },
               "position": {
-                "x": 363,
+                "x": 328,
                 "y": 1
               },
               "angle": 0,
@@ -699,12 +699,12 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 181,
-                "y": 159
+                "x": 183,
+                "y": 177
               },
               "target": {
-                "x": 389,
-                "y": 107
+                "x": 365,
+                "y": 115
               },
               "vertices": [
                 {
@@ -712,8 +712,8 @@
                   "y": 166
                 },
                 {
-                  "x": 359,
-                  "y": 130
+                  "x": 346,
+                  "y": 145
                 }
               ],
               "id": "6360be60-689d-4313-b920-a75726720ee0",
@@ -739,6 +739,143 @@
               ],
               "id": "44bd64a1-4b9f-43e6-9d7d-fa9d736cef48",
               "z": 46,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 580,
+                "y": 1
+              },
+              "angle": 0,
+              "id": "aa84fad3-5084-4afd-ad4b-86e89fa05445",
+              "z": 47,
+              "hasOpenThreats": true,
+              "isALog": true,
+              "threats": [
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Sensitive data exposure",
+                  "type": "Information disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "There is no confirmed mechanism for removing or obfuscating sensitive information based on relevant data classification assigned to data objects.",
+                  "mitigation": "Sensitive data should not be stored or logged unnecessarily. \nStrict permissions concerning which users can access logs must be verified prior to project rollout."
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Kubernetes StandardOut"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "518647ee-8ee4-44ec-8c62-a91609c78dad"
+              },
+              "target": {
+                "id": "aa84fad3-5084-4afd-ad4b-86e89fa05445"
+              },
+              "vertices": [
+                {
+                  "x": 467,
+                  "y": 100
+                }
+              ],
+              "id": "55e348c6-c56c-45ee-9134-fe4d1a8d8264",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "logs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 48,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "827e4ee3-c8df-4b25-8023-550e59d3fdb2"
+              },
+              "target": {
+                "id": "aa84fad3-5084-4afd-ad4b-86e89fa05445"
+              },
+              "vertices": [
+                {
+                  "x": 471,
+                  "y": 138
+                }
+              ],
+              "id": "ea54da0a-5490-44c5-96d8-5a5ead776e5b",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "logs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 49,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 525,
+                "y": 4
+              },
+              "target": {
+                "x": 622,
+                "y": 115
+              },
+              "vertices": [
+                {
+                  "x": 545,
+                  "y": 97
+                }
+              ],
+              "id": "94abf6db-8c16-4c18-9dca-e4c34d5143e3",
+              "z": 50,
               "attrs": {}
             }
           ]
