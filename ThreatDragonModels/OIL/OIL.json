@@ -1516,19 +1516,20 @@
                 "height": 80
               },
               "position": {
-                "x": 50,
-                "y": 50
+                "x": 24,
+                "y": 35
               },
               "angle": 0,
               "id": "81f18266-5421-4773-bcfe-6129c974a068",
               "z": 1,
               "hasOpenThreats": false,
+              "outOfScope": true,
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
-                  "text": "actor 0"
+                  "text": "Avaloq Message\nInterface"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -1542,8 +1543,8 @@
                 "height": 100
               },
               "position": {
-                "x": 293,
-                "y": 257
+                "x": 250,
+                "y": 129
               },
               "angle": 0,
               "id": "28c4b5ad-8d3c-4882-b100-18ca79fe318c",
@@ -1554,7 +1555,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 1"
+                  "text": "OIL MsgOut\nHM"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -1568,8 +1569,8 @@
                 "height": 100
               },
               "position": {
-                "x": 444,
-                "y": 157
+                "x": 107,
+                "y": 335
               },
               "angle": 0,
               "id": "ed00f03e-e8e9-4da9-832e-c72ace7a3873",
@@ -1580,33 +1581,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 2"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Store",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 32,
-                "y": 220
-              },
-              "angle": 0,
-              "id": "18b1970a-d673-4e4d-98e1-5097459358f3",
-              "z": 4,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "store 3"
+                  "text": "Authorisation\nServer"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -1620,8 +1595,8 @@
                 "height": 100
               },
               "position": {
-                "x": 708,
-                "y": 328
+                "x": 688,
+                "y": 337
               },
               "angle": 0,
               "id": "332391a4-a17d-4f33-a3a5-ed071ad6638d",
@@ -1632,7 +1607,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 5"
+                  "text": "Hub Module -\nData Loader"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -1646,8 +1621,8 @@
                 "height": 80
               },
               "position": {
-                "x": 479,
-                "y": 357
+                "x": 400,
+                "y": 290
               },
               "angle": 0,
               "id": "14d33bb3-09d4-4428-b63d-6d23e4ae0eb1",
@@ -1658,7 +1633,33 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 5"
+                  "text": "RabbitMQ"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 856,
+                "y": 238
+              },
+              "angle": 0,
+              "id": "1f8d2cc1-0b1f-48c9-9be0-a348e645eaa3",
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Repository"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -1669,7 +1670,7 @@
         },
         "size": {
           "height": 590,
-          "width": 904
+          "width": 1018
         }
       }
     ],
