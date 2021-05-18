@@ -1667,17 +1667,28 @@
               "angle": 0,
               "id": "49cf9109-9965-4910-afda-1d15eccb55d7",
               "z": 33,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": true,
+              "threats": [
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Sensitive data exposure",
+                  "type": "Information disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "There is no confirmed mechanism for removing or obfuscating sensitive information based on relevant data classification assigned to data objects.",
+                  "mitigation": "Sensitive data should not be stored or logged unnecessarily. \nStrict permissions concerning which users can access logs must be verified prior to project rollout."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Kubernetes StandardOut"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
