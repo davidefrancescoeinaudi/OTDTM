@@ -2100,6 +2100,7 @@
               "id": "532f500a-f9f4-4feb-85f1-09a25e8e1671",
               "z": 19,
               "hasOpenThreats": false,
+              "storesCredentials": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
