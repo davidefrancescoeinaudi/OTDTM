@@ -1247,42 +1247,22 @@
                 "height": 80
               },
               "position": {
-                "x": 714,
+                "x": 712,
                 "y": 84
               },
               "angle": 0,
               "id": "5c371b27-4acc-4590-9d5d-434bdb5ed1f7",
               "z": 14,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
-                  "title": "AMI/RabbitMQ credentials in plaintext",
-                  "type": "Information disclosure",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "AMI CLXE$EBANKINGADMIN credentials are stored in etcd which, by default, is not encrypted and neither are its secrets.",
-                  "mitigation": "Confidentiality risk must be mitigated by guaranteeing encryption at rest. This can be done by enabling Kubernetes encryption at rest feature. The top-level/master key should ideally be stored outside of the cluster."
-                },
-                {
-                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
-                  "title": "Missing etcd least privilege",
-                  "type": "Elevation of privilege",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "Allowing components within the cluster to access the master etcd instance with read or write access to the full keyspace is equivalent to granting cluster-admin access.",
-                  "mitigation": "Use etcd ACLs to restrict read/write access to a subset of they keyspace is strongly recommended"
-                }
-              ],
+              "hasOpenThreats": false,
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Kubernetes etcd"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -1508,8 +1488,8 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 653,
-                "y": 65
+                "x": 622,
+                "y": 79
               },
               "target": {
                 "x": 880,
@@ -1521,8 +1501,8 @@
                   "y": 142
                 },
                 {
-                  "x": 737,
-                  "y": 210
+                  "x": 729,
+                  "y": 228
                 }
               ],
               "id": "eb16f9ee-9013-4511-9ebf-68ef76932a7a",
@@ -1644,155 +1624,6 @@
                 }
               ],
               "z": 32,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Store",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 166,
-                "y": 460
-              },
-              "angle": 0,
-              "id": "49cf9109-9965-4910-afda-1d15eccb55d7",
-              "z": 33,
-              "hasOpenThreats": true,
-              "isALog": true,
-              "threats": [
-                {
-                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
-                  "title": "Sensitive data exposure",
-                  "type": "Information disclosure",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "description": "There is no confirmed mechanism for removing or obfuscating sensitive information based on relevant data classification assigned to data objects.",
-                  "mitigation": "Sensitive data should not be stored or logged unnecessarily. \nStrict permissions concerning which users can access logs must be verified prior to project rollout."
-                }
-              ],
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Kubernetes StandardOut"
-                },
-                ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "6bf90656-16f0-499a-a55b-0594871f41da"
-              },
-              "target": {
-                "id": "49cf9109-9965-4910-afda-1d15eccb55d7"
-              },
-              "vertices": [],
-              "id": "dcb7462d-606d-4b5e-bb5f-4b0fec15f967",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "logs",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 34,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "f1881952-cc2c-40fa-b44a-14581c31fc49"
-              },
-              "target": {
-                "id": "49cf9109-9965-4910-afda-1d15eccb55d7"
-              },
-              "vertices": [],
-              "id": "4f9a48f2-8b30-4a75-9166-69016c20a21c",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "logs",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 35,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "8f6d98a8-3329-43a5-bf05-e3a1a21b3a59"
-              },
-              "target": {
-                "id": "49cf9109-9965-4910-afda-1d15eccb55d7"
-              },
-              "vertices": [
-                {
-                  "x": 471,
-                  "y": 382
-                },
-                {
-                  "x": 366,
-                  "y": 417
-                }
-              ],
-              "id": "d478dfbe-814e-479f-bc6c-49ed94a2b589",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "logs",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 36,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
@@ -2262,14 +2093,13 @@
                 "height": 80
               },
               "position": {
-                "x": 574,
-                "y": 48
+                "x": 498,
+                "y": 15
               },
               "angle": 0,
               "id": "532f500a-f9f4-4feb-85f1-09a25e8e1671",
               "z": 19,
               "hasOpenThreats": false,
-              "storesCredentials": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -2320,22 +2150,150 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 536,
-                "y": 26
+                "x": 439,
+                "y": 37
               },
               "target": {
-                "x": 690,
-                "y": 179
+                "x": 651,
+                "y": 127
               },
               "vertices": [
                 {
-                  "x": 566,
-                  "y": 152
+                  "x": 492,
+                  "y": 107
                 }
               ],
               "id": "afd44e4d-c27a-46fe-b9cc-21e031a1a6ba",
               "z": 21,
               "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 766,
+                "y": 94
+              },
+              "angle": 0,
+              "id": "3ff2ae4a-a5ed-4b93-9b98-1d9814fd33d3",
+              "z": 22,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Kubernetes StandardOut"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "28c4b5ad-8d3c-4882-b100-18ca79fe318c"
+              },
+              "target": {
+                "id": "3ff2ae4a-a5ed-4b93-9b98-1d9814fd33d3"
+              },
+              "vertices": [],
+              "id": "6e6e40a3-576c-4841-978f-3b3f133c350a",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "logs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 23,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "14d33bb3-09d4-4428-b63d-6d23e4ae0eb1"
+              },
+              "target": {
+                "id": "3ff2ae4a-a5ed-4b93-9b98-1d9814fd33d3"
+              },
+              "vertices": [],
+              "id": "d4b4cd5f-5e69-4ab3-9820-49d5b8a15e57",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "logs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 24,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "332391a4-a17d-4f33-a3a5-ed071ad6638d"
+              },
+              "target": {
+                "id": "3ff2ae4a-a5ed-4b93-9b98-1d9814fd33d3"
+              },
+              "vertices": [],
+              "id": "c6bc1e16-e966-4f9d-b267-f62c1b490b9f",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "logs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 25,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
