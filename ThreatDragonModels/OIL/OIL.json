@@ -1938,6 +1938,87 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 668,
+                "y": 72
+              },
+              "angle": 0,
+              "id": "532f500a-f9f4-4feb-85f1-09a25e8e1671",
+              "z": 19,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Kubernetes etcd"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "532f500a-f9f4-4feb-85f1-09a25e8e1671"
+              },
+              "target": {
+                "id": "28c4b5ad-8d3c-4882-b100-18ca79fe318c"
+              },
+              "vertices": [],
+              "id": "870ea03d-6470-450d-a344-7f1328cd09d5",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "reads RabbitMQ\ncreds",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 20,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 614,
+                "y": 38
+              },
+              "target": {
+                "x": 733,
+                "y": 196
+              },
+              "vertices": [
+                {
+                  "x": 642,
+                  "y": 169
+                }
+              ],
+              "id": "afd44e4d-c27a-46fe-b9cc-21e031a1a6ba",
+              "z": 21,
+              "attrs": {}
             }
           ]
         },
