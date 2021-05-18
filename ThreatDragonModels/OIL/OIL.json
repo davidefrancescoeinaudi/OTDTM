@@ -623,20 +623,20 @@
               "angle": 0,
               "id": "cb0dfdbf-17d6-4a7f-8e2f-b5c17d1a1c26",
               "z": 43,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "storesCredentials": true,
               "threats": [
                 {
                   "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
                   "title": "AMI credentials in plaintext",
                   "type": "Information disclosure",
-                  "status": "Mitigated",
+                  "status": "Open",
                   "severity": "Medium",
                   "description": "AMI CLXE$EBANKINGADMIN credentials are stored in etcd which, by default, is not encrypted and neither are its secrets.",
                   "mitigation": "Confidentiality risk must be mitigated by guaranteeing encryption at rest. This can be done by enabling Kubernetes encryption at rest feature. The top-level/master key should ideally be stored outside of the cluster."
                 },
                 {
-                  "status": "Mitigated",
+                  "status": "Open",
                   "severity": "Medium",
                   "title": "Missing etcd least privilege",
                   "type": "Elevation of privilege",
@@ -646,13 +646,13 @@
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Kubernetes etcd"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
