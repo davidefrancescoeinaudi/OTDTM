@@ -976,22 +976,42 @@
                 "height": 80
               },
               "position": {
-                "x": 346,
-                "y": 201
+                "x": 343,
+                "y": 200
               },
               "angle": 0,
               "id": "f1881952-cc2c-40fa-b44a-14581c31fc49",
               "z": 4,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Message Tampering",
+                  "type": "Tampering",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "RabbitMQ does not perform integrity checks. This exposes the entire Message Broker instance to the risk of message being tampered with, should access control flaws or RabbitMQ misconfiguration enable it.",
+                  "mitigation": "An integrity protection can be applied to the publishing and consuming applications, like computing a checksum and adding it as a message header. Similarly to the above, the control would possibly be done between the 2 ends of the communication, through an additional header."
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Lack of message encryption",
+                  "type": "Information disclosure",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "Current design does not involve encryption of the messages within RabbitMQ. This implies a confidentiality breach for private, sensitive or highly sensitive information being disclosed to unauthorised users for furtherly leveraging business/user data.",
+                  "mitigation": "Message payloads should be passed via RabbitMQ exchanges and queues in an encrypted form. The Module Gateway component should offer encryption/decryption for every producer and consumer applications and in line with the CISO cryptographic specification."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "RabbitMQ"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
