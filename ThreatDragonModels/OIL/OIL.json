@@ -77,7 +77,7 @@
                 "height": 80
               },
               "position": {
-                "x": 328,
+                "x": 340,
                 "y": 1
               },
               "angle": 0,
@@ -221,7 +221,8 @@
               "z": 31,
               "hasOpenThreats": false,
               "protocol": "HTTP",
-              "isEncrypted": true,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -703,17 +704,21 @@
                 "y": 177
               },
               "target": {
-                "x": 365,
-                "y": 115
+                "x": 264,
+                "y": 14
               },
               "vertices": [
+                {
+                  "x": 204,
+                  "y": 168
+                },
                 {
                   "x": 252,
                   "y": 166
                 },
                 {
-                  "x": 346,
-                  "y": 145
+                  "x": 282,
+                  "y": 49
                 }
               ],
               "id": "6360be60-689d-4313-b920-a75726720ee0",
