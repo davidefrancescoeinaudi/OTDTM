@@ -2368,6 +2368,11 @@
           "height": 590,
           "width": 1051
         }
+      },
+      {
+        "title": "Batch Processing Data Flow",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 3
       }
     ],
     "reviewer": ""
