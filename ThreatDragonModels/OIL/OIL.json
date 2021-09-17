@@ -2645,8 +2645,8 @@
                 "height": 100
               },
               "position": {
-                "x": 197,
-                "y": 408
+                "x": 65,
+                "y": 342
               },
               "angle": 0,
               "id": "6b811e42-2627-4968-837b-7da9f1616fe9",
@@ -2680,7 +2680,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 11",
+                      "text": "Authorisation\nRequest",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2709,8 +2709,8 @@
               },
               "vertices": [
                 {
-                  "x": 361,
-                  "y": 321
+                  "x": 290,
+                  "y": 328
                 }
               ],
               "id": "ebb37a02-6f03-4424-97d4-00f423624f97",
@@ -2722,7 +2722,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 12",
+                      "text": "Token response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2790,7 +2790,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 14",
+                      "text": "Queries",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2798,6 +2798,66 @@
                 }
               ],
               "z": 15,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 357,
+                "y": 419
+              },
+              "angle": 0,
+              "id": "1a14466f-2262-4d2e-a6d5-ed9b3d9fbec8",
+              "z": 16,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Kubernetes etcd"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "1a14466f-2262-4d2e-a6d5-ed9b3d9fbec8"
+              },
+              "target": {
+                "id": "ec3711df-3469-4e41-8239-0c2030ec9923"
+              },
+              "vertices": [],
+              "id": "59aa5822-9d2f-4e2a-b49d-1b1017260b9d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "reads RabbitMQ\ncreds",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 17,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
