@@ -1875,7 +1875,7 @@
                 "height": 100
               },
               "position": {
-                "x": 249,
+                "x": 248,
                 "y": 135
               },
               "angle": 0,
@@ -1887,7 +1887,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "OIL MsgOut\nHM"
+                  "text": "OIL MsgIn HM"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
