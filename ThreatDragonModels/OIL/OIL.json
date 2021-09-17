@@ -2452,6 +2452,7 @@
               ],
               "z": 3,
               "hasOpenThreats": false,
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -2689,6 +2690,8 @@
               ],
               "z": 12,
               "hasOpenThreats": false,
+              "protocol": "HTTP",
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -2731,6 +2734,8 @@
               ],
               "z": 13,
               "hasOpenThreats": false,
+              "protocol": "HTTP",
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
