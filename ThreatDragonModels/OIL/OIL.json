@@ -2594,8 +2594,8 @@
                 "height": 100
               },
               "position": {
-                "x": 805,
-                "y": 349
+                "x": 795,
+                "y": 352
               },
               "angle": 0,
               "id": "04d3d4cf-b612-41b5-aaa2-85d4317f2c9d",
@@ -2761,7 +2761,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 13",
+                      "text": "JMS API call",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2770,6 +2770,8 @@
               ],
               "z": 14,
               "hasOpenThreats": false,
+              "protocol": "AMQP",
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
