@@ -2468,8 +2468,8 @@
                 "height": 100
               },
               "position": {
-                "x": 491,
-                "y": 53
+                "x": 462,
+                "y": 43
               },
               "angle": 0,
               "id": "acd211e3-25de-4f82-a96d-12e6778cdac2",
@@ -2522,53 +2522,14 @@
               }
             },
             {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "acd211e3-25de-4f82-a96d-12e6778cdac2"
-              },
-              "target": {
-                "id": "ec3711df-3469-4e41-8239-0c2030ec9923"
-              },
-              "vertices": [
-                {
-                  "x": 465,
-                  "y": 221
-                }
-              ],
-              "id": "991b9fa1-c25a-4363-944a-f5f04da88ee3",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 5",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 6,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Store",
               "size": {
                 "width": 160,
                 "height": 80
               },
               "position": {
-                "x": 537,
-                "y": 285
+                "x": 551,
+                "y": 288
               },
               "angle": 0,
               "id": "7243ec3b-ece6-451b-9b0e-a8f4e7c97166",
@@ -2590,12 +2551,17 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "ec3711df-3469-4e41-8239-0c2030ec9923"
+                "id": "acd211e3-25de-4f82-a96d-12e6778cdac2"
               },
               "target": {
                 "id": "7243ec3b-ece6-451b-9b0e-a8f4e7c97166"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 601,
+                  "y": 218
+                }
+              ],
               "id": "5a5f70e7-cbc0-4cf6-89c9-bc6117d36d48",
               "labels": [
                 {
@@ -2627,8 +2593,8 @@
                 "height": 100
               },
               "position": {
-                "x": 830,
-                "y": 306
+                "x": 825,
+                "y": 314
               },
               "angle": 0,
               "id": "04d3d4cf-b612-41b5-aaa2-85d4317f2c9d",
@@ -2679,8 +2645,8 @@
                 "height": 100
               },
               "position": {
-                "x": 227,
-                "y": 398
+                "x": 197,
+                "y": 408
               },
               "angle": 0,
               "id": "6b811e42-2627-4968-837b-7da9f1616fe9",
