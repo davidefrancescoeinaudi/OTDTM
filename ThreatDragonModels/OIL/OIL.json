@@ -1887,7 +1887,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "OIL MsgOut\nHM"
+                  "text": "OIL MsgIn HM"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
