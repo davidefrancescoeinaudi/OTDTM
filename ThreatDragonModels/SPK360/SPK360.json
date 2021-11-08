@@ -427,6 +427,11 @@
           "height": 590,
           "width": 869
         }
+      },
+      {
+        "title": "Advisory Constellation",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 1
       }
     ]
   }
