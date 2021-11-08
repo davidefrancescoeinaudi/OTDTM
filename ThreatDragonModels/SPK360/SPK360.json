@@ -18,8 +18,8 @@
                 "height": 80
               },
               "position": {
-                "x": 49,
-                "y": 50
+                "x": 53,
+                "y": 59
               },
               "angle": 0,
               "id": "1f89fc24-df9c-4897-bda7-4e58088a9797",
@@ -45,8 +45,8 @@
                 "height": 100
               },
               "position": {
-                "x": 352,
-                "y": 217
+                "x": 350,
+                "y": 216
               },
               "angle": 0,
               "id": "9601d035-2b51-45b4-9038-e49efe455cac",
@@ -117,17 +117,17 @@
               }
             },
             {
-              "type": "tm.Store",
+              "type": "tm.Process",
               "size": {
-                "width": 160,
-                "height": 80
+                "width": 100,
+                "height": 100
               },
               "position": {
-                "x": 50,
-                "y": 50
+                "x": 679,
+                "y": 357
               },
               "angle": 0,
-              "id": "b2ce70b3-de73-4a6a-bb00-75249b8d48c4",
+              "id": "50776300-54f7-453f-bdeb-1afda35ec317",
               "z": 5,
               "hasOpenThreats": false,
               "attrs": {
@@ -135,7 +135,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 4"
+                  "text": "process 4"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
