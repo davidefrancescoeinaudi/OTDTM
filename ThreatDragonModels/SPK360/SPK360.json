@@ -546,6 +546,11 @@
           "height": 590,
           "width": 910
         }
+      },
+      {
+        "title": "Generation Management Select",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 2
       }
     ]
   }
