@@ -18,8 +18,8 @@
                 "height": 80
               },
               "position": {
-                "x": 52,
-                "y": 59
+                "x": 57,
+                "y": 48
               },
               "angle": 0,
               "id": "1f89fc24-df9c-4897-bda7-4e58088a9797",
@@ -123,8 +123,8 @@
                 "height": 100
               },
               "position": {
-                "x": 655,
-                "y": 337
+                "x": 745,
+                "y": 340
               },
               "angle": 0,
               "id": "50776300-54f7-453f-bdeb-1afda35ec317",
@@ -177,7 +177,12 @@
               "target": {
                 "id": "9601d035-2b51-45b4-9038-e49efe455cac"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 275,
+                  "y": 244
+                }
+              ],
               "id": "5666eb02-4f7f-4d39-812e-6af5c2a5dfbc",
               "labels": [
                 {
@@ -386,45 +391,6 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "50776300-54f7-453f-bdeb-1afda35ec317"
-              },
-              "target": {
-                "id": "9601d035-2b51-45b4-9038-e49efe455cac"
-              },
-              "vertices": [
-                {
-                  "x": 519,
-                  "y": 361
-                }
-              ],
-              "id": "80679c45-15d6-40aa-ad69-048d0e47c721",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 12",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 13,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
                 "id": "9601d035-2b51-45b4-9038-e49efe455cac"
               },
               "target": {
@@ -459,7 +425,7 @@
         },
         "size": {
           "height": 590,
-          "width": 866
+          "width": 869
         }
       }
     ]
