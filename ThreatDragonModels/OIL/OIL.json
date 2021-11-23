@@ -2320,8 +2320,8 @@
                 "height": 80
               },
               "position": {
-                "x": 626,
-                "y": 83
+                "x": 625,
+                "y": 80
               },
               "angle": 0,
               "id": "532f500a-f9f4-4feb-85f1-09a25e8e1671",
@@ -2333,7 +2333,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Kubernetes etcd"
+                  "text": "Kubernetes Etcd"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -2479,6 +2479,33 @@
                 },
                 ".connection": {
                   "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 281,
+                "y": 484
+              },
+              "angle": 0,
+              "id": "34594b33-9812-4b84-9747-38f685764a7b",
+              "z": 24,
+              "hasOpenThreats": false,
+              "isALog": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "EFK Backend"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             }
