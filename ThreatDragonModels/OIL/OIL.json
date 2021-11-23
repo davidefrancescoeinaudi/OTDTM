@@ -929,7 +929,7 @@
                 "height": 100
               },
               "position": {
-                "x": 40,
+                "x": 38,
                 "y": 303
               },
               "angle": 0,
@@ -1688,7 +1688,7 @@
                 "height": 80
               },
               "position": {
-                "x": 166,
+                "x": 163,
                 "y": 460
               },
               "angle": 0,
@@ -1859,6 +1859,69 @@
               ],
               "id": "c5494914-ffcf-4ab7-be1d-4dff5b637ee3",
               "z": 37,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "f7c3c4e0-ea69-4264-8347-b360a106da04"
+              },
+              "target": {
+                "id": "49cf9109-9965-4910-afda-1d15eccb55d7"
+              },
+              "vertices": [
+                {
+                  "x": 179,
+                  "y": 408
+                }
+              ],
+              "id": "30bbf5ea-fdee-42a6-91c1-14964dc5ab8d",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.48710285098704487,
+                    "offset": -1.8237561233320538
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "logs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 38,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 120,
+                "y": 462
+              },
+              "target": {
+                "x": 357,
+                "y": 485
+              },
+              "vertices": [
+                {
+                  "x": 292,
+                  "y": 429
+                }
+              ],
+              "id": "d6374ded-2108-47fa-b51e-16c5ec8a4015",
+              "z": 39,
               "attrs": {}
             }
           ]
