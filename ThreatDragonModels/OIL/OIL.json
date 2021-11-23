@@ -1274,7 +1274,7 @@
               },
               "position": {
                 "x": 714,
-                "y": 84
+                "y": 83
               },
               "angle": 0,
               "id": "5c371b27-4acc-4590-9d5d-434bdb5ed1f7",
@@ -1305,7 +1305,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Kubernetes etcd"
+                  "text": "Kubernetes Etcd"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
@@ -1712,7 +1712,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Kubernetes StandardOut"
+                  "text": "EFK Backend"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
