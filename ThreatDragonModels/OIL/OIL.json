@@ -2420,8 +2420,8 @@
               },
               "vertices": [
                 {
-                  "x": 575,
-                  "y": 193
+                  "x": 654,
+                  "y": 197
                 },
                 {
                   "x": 589,
@@ -2503,7 +2503,7 @@
                 "height": 80
               },
               "position": {
-                "x": 273,
+                "x": 272,
                 "y": 443
               },
               "angle": 0,
@@ -2659,14 +2659,18 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 289,
-                "y": 410
+                "x": 225,
+                "y": 489
               },
               "target": {
-                "x": 494,
-                "y": 530
+                "x": 478,
+                "y": 515
               },
               "vertices": [
+                {
+                  "x": 257,
+                  "y": 421
+                },
                 {
                   "x": 435,
                   "y": 419
@@ -2675,6 +2679,45 @@
               "id": "415e2d58-8511-460f-a28f-ddb173c20e06",
               "z": 29,
               "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "ed00f03e-e8e9-4da9-832e-c72ace7a3873"
+              },
+              "target": {
+                "id": "34594b33-9812-4b84-9747-38f685764a7b"
+              },
+              "vertices": [
+                {
+                  "x": 218,
+                  "y": 465
+                }
+              ],
+              "id": "e601e8e7-0e8e-489a-8114-72b355c5db2b",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "logs",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 30,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
