@@ -2076,14 +2076,19 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 298,
-                "y": 274
+                "x": 330,
+                "y": 284
               },
               "target": {
-                "x": 522,
-                "y": 223
+                "x": 505,
+                "y": 228
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 387,
+                  "y": 277
+                }
+              ],
               "id": "cc7efa62-c261-47bc-8139-b4f2dbc89142",
               "z": 11,
               "attrs": {}
