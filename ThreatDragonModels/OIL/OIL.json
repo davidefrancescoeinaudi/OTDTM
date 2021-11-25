@@ -1247,7 +1247,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Queue connection +\nJMS API call",
+                      "text": "Push to Exchange\n(AMQP)",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1615,7 +1615,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "JMS API call",
+                      "text": "Pull from Queue\n(AMQP)",
                       "font-weight": "400",
                       "font-size": "small"
                     }
