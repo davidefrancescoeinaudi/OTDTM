@@ -2023,8 +2023,8 @@
                 "height": 100
               },
               "position": {
-                "x": 687,
-                "y": 337
+                "x": 675,
+                "y": 403
               },
               "angle": 0,
               "id": "332391a4-a17d-4f33-a3a5-ed071ad6638d",
@@ -2093,8 +2093,8 @@
                 "height": 80
               },
               "position": {
-                "x": 899,
-                "y": 273
+                "x": 841,
+                "y": 274
               },
               "angle": 0,
               "id": "1f8d2cc1-0b1f-48c9-9be0-a348e645eaa3",
@@ -2240,7 +2240,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "JMS API call",
+                      "text": "Pull from Queue\n(AMQP)",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2276,7 +2276,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Queue connection +\nJMS API call",
+                      "text": "Push to Exchange\n(AMQP)",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -2636,7 +2636,7 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 879,
+                "x": 821,
                 "y": 250
               },
               "target": {
@@ -2645,12 +2645,12 @@
               },
               "vertices": [
                 {
-                  "x": 866,
-                  "y": 315
+                  "x": 820,
+                  "y": 327
                 },
                 {
-                  "x": 887,
-                  "y": 367
+                  "x": 845,
+                  "y": 378
                 }
               ],
               "id": "e8fffee4-0f13-4a57-a6a5-5688992bcd80",
