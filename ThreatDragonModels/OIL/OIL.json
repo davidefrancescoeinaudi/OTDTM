@@ -2055,16 +2055,34 @@
               "angle": 0,
               "id": "14d33bb3-09d4-4428-b63d-6d23e4ae0eb1",
               "z": 7,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "Message Tampering",
+                  "type": "Tampering",
+                  "description": "RabbitMQ does not perform integrity checks. This exposes the entire Message Broker instance to the risk of message being tampered with, should access control flaws or RabbitMQ misconfiguration enable it.",
+                  "mitigation": "An integrity protection can be applied to the publishing and consuming applications, like computing a checksum and adding it as a message header. Similarly to the above, the control would possibly be done between the 2 ends of the communication, through an additional header."
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "Lack of message encryption",
+                  "type": "Information disclosure",
+                  "description": "Current design does not involve encryption of the messages within RabbitMQ. This implies a confidentiality breach for private, sensitive or highly sensitive information being disclosed to unauthorised users for furtherly leveraging business/user data.",
+                  "mitigation": "Message payloads should be passed via RabbitMQ exchanges and queues in an encrypted form. The Module Gateway component should offer encryption/decryption for every producer and consumer applications and in line with the CISO cryptographic specification."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "RabbitMQ"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
