@@ -3060,8 +3060,8 @@
                 "height": 100
               },
               "position": {
-                "x": 836,
-                "y": 381
+                "x": 828,
+                "y": 355
               },
               "angle": 0,
               "id": "04d3d4cf-b612-41b5-aaa2-85d4317f2c9d",
@@ -3086,8 +3086,8 @@
                 "height": 80
               },
               "position": {
-                "x": 896,
-                "y": 177
+                "x": 967,
+                "y": 238
               },
               "angle": 0,
               "id": "38f77025-b050-4e0f-b031-c715a6caebc5",
@@ -3098,7 +3098,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Repository"
+                  "text": "Hub Module Repository"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -3340,6 +3340,27 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 891,
+                "y": 291
+              },
+              "target": {
+                "x": 1087,
+                "y": 346
+              },
+              "vertices": [
+                {
+                  "x": 941,
+                  "y": 331
+                }
+              ],
+              "id": "20ade9e2-d140-4c9a-9cb8-8b02f47b0b61",
+              "z": 18,
+              "attrs": {}
             }
           ]
         },
