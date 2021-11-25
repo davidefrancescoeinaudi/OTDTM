@@ -3060,8 +3060,8 @@
                 "height": 100
               },
               "position": {
-                "x": 795,
-                "y": 352
+                "x": 836,
+                "y": 381
               },
               "angle": 0,
               "id": "04d3d4cf-b612-41b5-aaa2-85d4317f2c9d",
@@ -3087,7 +3087,7 @@
               },
               "position": {
                 "x": 896,
-                "y": 163
+                "y": 177
               },
               "angle": 0,
               "id": "38f77025-b050-4e0f-b031-c715a6caebc5",
@@ -3227,7 +3227,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "JMS API call",
+                      "text": "Pull from Queue\n(AMQP)",
                       "font-weight": "400",
                       "font-size": "small"
                     }
