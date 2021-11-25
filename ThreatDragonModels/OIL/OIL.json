@@ -1844,8 +1844,8 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 355,
-                "y": 2
+                "x": 370,
+                "y": 11
               },
               "target": {
                 "x": 399,
@@ -1853,8 +1853,8 @@
               },
               "vertices": [
                 {
-                  "x": 370,
-                  "y": 87
+                  "x": 380,
+                  "y": 81
                 }
               ],
               "id": "c5494914-ffcf-4ab7-be1d-4dff5b637ee3",
