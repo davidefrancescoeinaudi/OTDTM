@@ -777,7 +777,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Kubernetes StandardOut"
+                  "text": "EFK Backend"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
