@@ -2182,8 +2182,8 @@
                 "y": 450
               },
               "target": {
-                "x": 710,
-                "y": 276
+                "x": 701,
+                "y": 339
               },
               "vertices": [],
               "id": "f0726dba-938a-47fb-a028-608e049c8290",
@@ -3060,8 +3060,8 @@
                 "height": 100
               },
               "position": {
-                "x": 828,
-                "y": 355
+                "x": 795,
+                "y": 352
               },
               "angle": 0,
               "id": "04d3d4cf-b612-41b5-aaa2-85d4317f2c9d",
@@ -3086,8 +3086,8 @@
                 "height": 80
               },
               "position": {
-                "x": 967,
-                "y": 238
+                "x": 896,
+                "y": 163
               },
               "angle": 0,
               "id": "38f77025-b050-4e0f-b031-c715a6caebc5",
@@ -3098,7 +3098,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Hub Module Repository"
+                  "text": "Repository"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -3227,7 +3227,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Pull from Queue\n(AMQP)",
+                      "text": "JMS API call",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -3340,27 +3340,6 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
-            },
-            {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "x": 891,
-                "y": 291
-              },
-              "target": {
-                "x": 1087,
-                "y": 346
-              },
-              "vertices": [
-                {
-                  "x": 941,
-                  "y": 331
-                }
-              ],
-              "id": "20ade9e2-d140-4c9a-9cb8-8b02f47b0b61",
-              "z": 18,
-              "attrs": {}
             }
           ]
         },
