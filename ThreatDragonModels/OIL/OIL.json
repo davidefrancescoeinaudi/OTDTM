@@ -2848,7 +2848,7 @@
                 "height": 100
               },
               "position": {
-                "x": 292,
+                "x": 289,
                 "y": 167
               },
               "angle": 0,
@@ -3473,6 +3473,41 @@
               ],
               "z": 28,
               "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "ec3711df-3469-4e41-8239-0c2030ec9923"
+              },
+              "target": {
+                "id": "7243ec3b-ece6-451b-9b0e-a8f4e7c97166"
+              },
+              "vertices": [],
+              "id": "fca5c8ab-b8f7-4ce6-88ad-0362c637b722",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Push to Exchange\n(AMQP)",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 29,
+              "hasOpenThreats": false,
+              "protocol": "AMQP",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
