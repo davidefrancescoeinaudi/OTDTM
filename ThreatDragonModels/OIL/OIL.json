@@ -2849,7 +2849,7 @@
               },
               "position": {
                 "x": 292,
-                "y": 177
+                "y": 167
               },
               "angle": 0,
               "id": "ec3711df-3469-4e41-8239-0c2030ec9923",
@@ -2860,70 +2860,10 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "OIL MsgIn HM"
+                  "text": "OIL MsgIn HM\n(EDL Job)"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 489,
-                "y": 141
-              },
-              "angle": 0,
-              "id": "acd211e3-25de-4f82-a96d-12e6778cdac2",
-              "z": 4,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "EDL Job"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "ec3711df-3469-4e41-8239-0c2030ec9923"
-              },
-              "target": {
-                "id": "acd211e3-25de-4f82-a96d-12e6778cdac2"
-              },
-              "vertices": [],
-              "id": "ccc82877-2095-4dcc-8352-a43d68c278e8",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 4",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 5,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -2950,45 +2890,6 @@
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "acd211e3-25de-4f82-a96d-12e6778cdac2"
-              },
-              "target": {
-                "id": "7243ec3b-ece6-451b-9b0e-a8f4e7c97166"
-              },
-              "vertices": [
-                {
-                  "x": 601,
-                  "y": 218
-                }
-              ],
-              "id": "5a5f70e7-cbc0-4cf6-89c9-bc6117d36d48",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 7",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 8,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -3527,8 +3428,8 @@
                 "height": 80
               },
               "position": {
-                "x": 63,
-                "y": 50
+                "x": 81,
+                "y": 38
               },
               "angle": 0,
               "id": "bd34c28f-0c9e-479a-8ec3-4dc514932f43",
@@ -3563,7 +3464,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 26",
+                      "text": "reads stored records",
                       "font-weight": "400",
                       "font-size": "small"
                     }
