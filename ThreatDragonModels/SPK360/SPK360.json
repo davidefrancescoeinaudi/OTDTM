@@ -18,7 +18,7 @@
                 "height": 80
               },
               "position": {
-                "x": 97,
+                "x": 96,
                 "y": 92
               },
               "angle": 0,
@@ -31,7 +31,7 @@
                   "class": "element-shape hasNoOpenThreats isOutOfScope"
                 },
                 "text": {
-                  "text": "Inasys Integration Server"
+                  "text": "K2 Advisor Dashboard -\nInasys Integration Server"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
