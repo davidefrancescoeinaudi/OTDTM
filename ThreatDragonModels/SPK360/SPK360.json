@@ -123,8 +123,8 @@
                 "height": 100
               },
               "position": {
-                "x": 736,
-                "y": 323
+                "x": 630,
+                "y": 348
               },
               "angle": 0,
               "id": "50776300-54f7-453f-bdeb-1afda35ec317",
@@ -420,12 +420,112 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 929,
+                "y": 264
+              },
+              "angle": 0,
+              "id": "6e292297-bb5b-4e85-971f-b05e4c9b8aa3",
+              "z": 15,
+              "hasOpenThreats": false,
+              "outOfScope": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
+                },
+                "text": {
+                  "text": "Banking API (FI)"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "50776300-54f7-453f-bdeb-1afda35ec317"
+              },
+              "target": {
+                "id": "6e292297-bb5b-4e85-971f-b05e4c9b8aa3"
+              },
+              "vertices": [],
+              "id": "ac2c0c59-7938-47ee-bea8-12d1b13b5b2e",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 14",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 16,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "6e292297-bb5b-4e85-971f-b05e4c9b8aa3"
+              },
+              "target": {
+                "id": "50776300-54f7-453f-bdeb-1afda35ec317"
+              },
+              "vertices": [
+                {
+                  "x": 812,
+                  "y": 403
+                }
+              ],
+              "id": "259b83fa-8910-4e0b-8150-3e90990b2be1",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 15",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 17,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
           "height": 590,
-          "width": 869
+          "width": 1096
         }
       },
       {
