@@ -2958,16 +2958,25 @@
               "angle": 0,
               "id": "38f77025-b050-4e0f-b031-c715a6caebc5",
               "z": 10,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "Sensitive data stored in plain text",
+                  "type": "Information disclosure"
+                }
+              ],
+              "outOfScope": true,
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isOutOfScope"
                 },
                 "text": {
                   "text": "Hub Module Repository"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
