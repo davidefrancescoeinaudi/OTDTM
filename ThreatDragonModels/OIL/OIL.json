@@ -964,23 +964,31 @@
                 "height": 80
               },
               "position": {
-                "x": 403,
+                "x": 399,
                 "y": 12
               },
               "angle": 0,
               "id": "728d1a59-04c8-470c-ab1e-f6ca9afd1e84",
               "z": 3,
-              "hasOpenThreats": false,
-              "outOfScope": false,
+              "hasOpenThreats": true,
+              "outOfScope": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "title": "Sensitive data stored in plain text"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isOutOfScope"
                 },
                 "text": {
                   "text": "Hub Module Repository"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
