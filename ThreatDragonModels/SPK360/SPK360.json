@@ -149,13 +149,14 @@
                 "height": 80
               },
               "position": {
-                "x": 455,
-                "y": 101
+                "x": 425,
+                "y": 107
               },
               "angle": 0,
               "id": "dfdc0d4b-186d-479d-b3f6-b3ceecadbcb1",
               "z": 6,
               "hasOpenThreats": false,
+              "outOfScope": false,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -676,7 +677,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 20"
+                  "text": "Authorisation Server\nSchema"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -736,7 +737,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 22"
+                  "text": "Estate planning Schema"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -762,7 +763,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 23"
+                  "text": "FAW schema"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
