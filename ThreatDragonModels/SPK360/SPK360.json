@@ -149,8 +149,8 @@
                 "height": 80
               },
               "position": {
-                "x": 425,
-                "y": 107
+                "x": 433,
+                "y": 119
               },
               "angle": 0,
               "id": "dfdc0d4b-186d-479d-b3f6-b3ceecadbcb1",
@@ -700,7 +700,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 21",
+                      "text": "Queries",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -786,7 +786,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 24",
+                      "text": "Queries",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -820,7 +820,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 25",
+                      "text": "Queries",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -857,7 +857,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 26"
+                  "text": "Logging Stack"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
