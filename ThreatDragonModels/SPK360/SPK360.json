@@ -346,7 +346,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 11",
+                      "text": "routes request,\nattaches tokens",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -471,7 +471,7 @@
                 "height": 100
               },
               "position": {
-                "x": 447,
+                "x": 445,
                 "y": 411
               },
               "angle": 0,
@@ -506,7 +506,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 17",
+                      "text": "routes request,\nattaches tokens",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1080,7 +1080,7 @@
                 "height": 80
               },
               "position": {
-                "x": 460,
+                "x": 459,
                 "y": 99
               },
               "angle": 0,
@@ -1093,7 +1093,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Gloo Edge Redis Cache"
+                  "text": "Redis Cache (API GW)"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -1133,6 +1133,31 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 60,
+                "y": 247
+              },
+              "target": {
+                "x": 298,
+                "y": 438
+              },
+              "vertices": [
+                {
+                  "x": 138,
+                  "y": 267
+                },
+                {
+                  "x": 233,
+                  "y": 332
+                }
+              ],
+              "id": "0c35b214-630c-4253-8d39-168dfeab59b6",
+              "z": 39,
+              "attrs": {}
             }
           ]
         },
