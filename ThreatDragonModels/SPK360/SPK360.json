@@ -407,7 +407,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 14",
+                      "text": "queries K1 data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -446,7 +446,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 15",
+                      "text": "returns K1 result",
                       "font-weight": "400",
                       "font-size": "small"
                     }
