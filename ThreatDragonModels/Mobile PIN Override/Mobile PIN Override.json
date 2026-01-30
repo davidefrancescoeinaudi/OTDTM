@@ -139,7 +139,7 @@
           },
           {
             "position": {
-              "x": 155,
+              "x": 165,
               "y": 20
             },
             "size": {
@@ -451,7 +451,7 @@
           },
           {
             "position": {
-              "x": 753,
+              "x": 770,
               "y": 130
             },
             "size": {
@@ -704,7 +704,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Device"
+                "text": "Device OS"
               },
               "body": {
                 "stroke": "#333333",
@@ -800,7 +800,7 @@
             "id": "5fee9ce7-c2e0-4aaa-a2b3-20143215dcf6",
             "data": {
               "type": "tm.Actor",
-              "name": "Device",
+              "name": "Device OS",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -820,6 +820,9 @@
               "height": 50
             },
             "attrs": {
+              "text": {
+                "text": "TWINT App"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -914,7 +917,7 @@
             "id": "25442345-321b-4b71-9308-a879eb80851a",
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "TWINT App",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -1101,6 +1104,44 @@
               {
                 "x": 110,
                 "y": 120
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 17,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "c7108c7f-b53e-4b43-bc7d-8a4c5033c4c0",
+            "source": {
+              "x": 630,
+              "y": 30
+            },
+            "target": {
+              "x": 640,
+              "y": 370
+            },
+            "vertices": [
+              {
+                "x": 700,
+                "y": 70
+              },
+              {
+                "x": 760,
+                "y": 350
               }
             ]
           }
