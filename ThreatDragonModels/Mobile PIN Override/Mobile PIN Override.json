@@ -139,7 +139,7 @@
           },
           {
             "position": {
-              "x": 165,
+              "x": 155,
               "y": 20
             },
             "size": {
@@ -252,25 +252,6 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 180,
-              "y": 290
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 3,
-            "id": "9721427c-b390-4fb3-9972-55049eff9943",
-            "data": {
-              "type": "tm.Text",
-              "name": "Descriptive text",
-              "hasOpenThreats": false
             }
           },
           {
@@ -1027,6 +1008,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
