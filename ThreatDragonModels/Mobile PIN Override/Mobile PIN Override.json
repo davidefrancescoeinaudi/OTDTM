@@ -19,7 +19,106 @@
         "cells": [
           {
             "position": {
-              "x": 155,
+              "x": 330.9999999999999,
+              "y": 90
+            },
+            "size": {
+              "width": 210,
+              "height": 310
+            },
+            "attrs": {
+              "label": {
+                "text": "Device OS"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "10764ff8-3848-4663-80b2-c279356390bc",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Device OS",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            }
+          },
+          {
+            "position": {
+              "x": 490,
+              "y": 120
+            },
+            "size": {
+              "width": 110,
+              "height": 70
+            },
+            "attrs": {
+              "label": {
+                "text": "TWINT App"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "dbe49757-2049-4cef-b8a0-55da541dce96",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "TWINT App",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            }
+          },
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "23e0946c-a29a-4617-968b-6247af32211b",
+            "zIndex": 0,
+            "source": {
+              "cell": "f40bd728-c645-4a93-9825-6f1dc5fb0226",
+              "port": "369b1f34-b3ee-4a63-9d51-cea088c8bb08"
+            },
+            "target": {
+              "x": 330,
+              "y": 240
+            },
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "vertices": [
+              {
+                "x": 290,
+                "y": 195
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 140,
               "y": 145
             },
             "size": {
@@ -135,7 +234,10 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            }
+            },
+            "children": [
+              "e669ea6e-c7ed-4de5-ac08-026cc11cd9e6"
+            ]
           },
           {
             "position": {
@@ -256,8 +358,8 @@
           },
           {
             "position": {
-              "x": 440,
-              "y": 220
+              "x": 445,
+              "y": 300
             },
             "size": {
               "width": 120,
@@ -426,121 +528,13 @@
             "vertices": []
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              ""
-            ],
-            "id": "9f789477-685b-4e52-9973-6d84b0fe4898",
-            "source": {
-              "cell": "5fee9ce7-c2e0-4aaa-a2b3-20143215dcf6",
-              "port": "102125e6-6a2a-4559-a47b-0b2ffc004efc"
-            },
-            "target": {
-              "cell": "7dd16312-0a22-43c9-a04c-b253794efdfc",
-              "port": "dbc1fe5f-dd87-4ae5-9d13-ba9c19478d20"
-            },
-            "vertices": [
-              {
-                "x": 640,
-                "y": 240
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              ""
-            ],
-            "id": "a72337e4-747b-423a-b24c-0ed460bdca8f",
-            "source": {
-              "cell": "f40bd728-c645-4a93-9825-6f1dc5fb0226",
-              "port": "369b1f34-b3ee-4a63-9d51-cea088c8bb08"
-            },
-            "target": {
-              "cell": "5fee9ce7-c2e0-4aaa-a2b3-20143215dcf6",
-              "port": "2753359d-409f-40f4-b84d-7496e1d39044"
-            },
-            "vertices": [
-              {
-                "x": 265,
-                "y": 220
-              },
-              {
-                "x": 260,
-                "y": 240
-              }
-            ]
-          },
-          {
             "position": {
-              "x": 710,
-              "y": 140
+              "x": 690,
+              "y": 139.99999999999997
             },
             "size": {
-              "width": 60,
-              "height": 110
+              "width": 80,
+              "height": 120
             },
             "attrs": {
               "text": {
@@ -782,245 +776,8 @@
           },
           {
             "position": {
-              "x": 329.9999999999999,
-              "y": 120
-            },
-            "size": {
-              "width": 260,
-              "height": 260
-            },
-            "attrs": {
-              "text": {
-                "text": "Device OS"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "zIndex": 13,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "780392d4-e356-492a-8ba6-de5fe1ccdce4"
-                },
-                {
-                  "group": "right",
-                  "id": "102125e6-6a2a-4559-a47b-0b2ffc004efc"
-                },
-                {
-                  "group": "bottom",
-                  "id": "f319e585-d3e1-4f1f-a5c5-59b2a6ef828f"
-                },
-                {
-                  "group": "left",
-                  "id": "2753359d-409f-40f4-b84d-7496e1d39044"
-                }
-              ]
-            },
-            "id": "5fee9ce7-c2e0-4aaa-a2b3-20143215dcf6",
-            "data": {
-              "type": "tm.Actor",
-              "name": "Device OS",
-              "description": "",
-              "isTrustBoundary": false,
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            },
-            "children": [
-              "d0f6351e-ac1e-4d7c-8a6c-14e106de6fe4"
-            ]
-          },
-          {
-            "position": {
-              "x": 450,
-              "y": 145
-            },
-            "size": {
-              "width": 110,
-              "height": 50
-            },
-            "attrs": {
-              "text": {
-                "text": "TWINT App"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "zIndex": 14,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "780392d4-e356-492a-8ba6-de5fe1ccdce4"
-                },
-                {
-                  "group": "right",
-                  "id": "102125e6-6a2a-4559-a47b-0b2ffc004efc"
-                },
-                {
-                  "group": "bottom",
-                  "id": "f319e585-d3e1-4f1f-a5c5-59b2a6ef828f"
-                },
-                {
-                  "group": "left",
-                  "id": "2753359d-409f-40f4-b84d-7496e1d39044"
-                }
-              ]
-            },
-            "id": "25442345-321b-4b71-9308-a879eb80851a",
-            "data": {
-              "type": "tm.Actor",
-              "name": "TWINT App",
-              "description": "",
-              "isTrustBoundary": false,
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 445,
-              "y": 410
+              "x": 300,
+              "y": 430
             },
             "size": {
               "width": 110,
@@ -1230,6 +987,52 @@
                 "y": 300
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 18,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "bd3112ad-382e-4726-acd8-04646974ece3",
+            "source": {
+              "x": 620,
+              "y": 150
+            },
+            "target": {
+              "cell": "7dd16312-0a22-43c9-a04c-b253794efdfc",
+              "port": "dbc1fe5f-dd87-4ae5-9d13-ba9c19478d20"
+            }
           }
         ],
         "description": "fasafdsasd"
