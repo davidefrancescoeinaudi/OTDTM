@@ -42,21 +42,23 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [],
-              "containedElements": []
+              "containedElements": [
+                "16cc5ef5-f0bf-4ce5-b15a-105b3b421e79"
+              ]
             }
           },
           {
             "position": {
-              "x": 490,
+              "x": 450,
               "y": 120
             },
             "size": {
               "width": 110,
-              "height": 70
+              "height": 100
             },
             "attrs": {
               "label": {
-                "text": "TWINT App"
+                "text": "Mobile App"
               }
             },
             "visible": true,
@@ -65,7 +67,7 @@
             "id": "dbe49757-2049-4cef-b8a0-55da541dce96",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "TWINT App",
+              "name": "Mobile App",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -357,130 +359,6 @@
             }
           },
           {
-            "position": {
-              "x": 445,
-              "y": 300
-            },
-            "size": {
-              "width": 120,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Device"
-              },
-              "topLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              },
-              "bottomLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "store",
-            "zIndex": 4,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "725df093-2495-4592-a4a2-9a1d7f39bf7a"
-                },
-                {
-                  "group": "right",
-                  "id": "d7869055-131d-4914-af41-cd4ddf7d8be3"
-                },
-                {
-                  "group": "bottom",
-                  "id": "8bd09ca2-c9e4-404d-a129-0a4134a91597"
-                },
-                {
-                  "group": "left",
-                  "id": "79738172-f4aa-43a9-aada-e8e5bd50f210"
-                }
-              ]
-            },
-            "id": "6488e2b4-f934-43e5-8fe6-29a35014cd51",
-            "data": {
-              "type": "tm.Store",
-              "name": "Device",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
-              "threats": []
-            }
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -516,16 +394,21 @@
             "labels": [
               ""
             ],
-            "id": "6d9b36d7-fe18-4ee0-8922-e4caf92f6ea6",
+            "id": "abad2358-35b0-4b47-89f4-f3b2a978b167",
             "source": {
               "cell": "7dd16312-0a22-43c9-a04c-b253794efdfc",
               "port": "369b1f34-b3ee-4a63-9d51-cea088c8bb08"
             },
             "target": {
-              "cell": "2bc1be9c-ebd4-4144-b8af-1e9ba68df8e1",
-              "port": "79738172-f4aa-43a9-aada-e8e5bd50f210"
+              "cell": "666ad190-d2cf-4f0e-b5f9-8548bda199a5",
+              "port": "0374ac59-6bf5-4f47-9c0b-66e7ca069c0a"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 910,
+                "y": 170
+              }
+            ]
           },
           {
             "position": {
@@ -649,130 +532,6 @@
             "children": [
               "94582f2d-90b7-4a1a-a885-7a124598ae54"
             ]
-          },
-          {
-            "position": {
-              "x": 929,
-              "y": 180
-            },
-            "size": {
-              "width": 120,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "TWINT Backend"
-              },
-              "topLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              },
-              "bottomLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "store",
-            "zIndex": 12,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "725df093-2495-4592-a4a2-9a1d7f39bf7a"
-                },
-                {
-                  "group": "right",
-                  "id": "d7869055-131d-4914-af41-cd4ddf7d8be3"
-                },
-                {
-                  "group": "bottom",
-                  "id": "8bd09ca2-c9e4-404d-a129-0a4134a91597"
-                },
-                {
-                  "group": "left",
-                  "id": "79738172-f4aa-43a9-aada-e8e5bd50f210"
-                }
-              ]
-            },
-            "id": "2bc1be9c-ebd4-4144-b8af-1e9ba68df8e1",
-            "data": {
-              "type": "tm.Store",
-              "name": "TWINT Backend",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
-              "threats": []
-            }
           },
           {
             "position": {
@@ -1008,7 +767,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1022,17 +781,23 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              ""
             ],
             "id": "bd3112ad-382e-4726-acd8-04646974ece3",
             "source": {
-              "x": 600,
-              "y": 150
+              "x": 570,
+              "y": 170
             },
             "target": {
               "cell": "7dd16312-0a22-43c9-a04c-b253794efdfc",
               "port": "dbc1fe5f-dd87-4ae5-9d13-ba9c19478d20"
             },
+            "vertices": [
+              {
+                "x": 630,
+                "y": 200
+              }
+            ],
             "tools": {
               "items": [
                 "boundary",
@@ -1057,6 +822,171 @@
                 "target-arrowhead"
               ],
               "name": null
+            }
+          },
+          {
+            "position": {
+              "x": 978,
+              "y": 165
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Backend services"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "bf9a6a15-53bf-4934-8ca3-0f820a999d25"
+                },
+                {
+                  "group": "right",
+                  "id": "52f61b26-fc23-4692-9d34-87dc59bc7533"
+                },
+                {
+                  "group": "bottom",
+                  "id": "f23a5202-615c-4cd6-ae69-a51f42bbdff1"
+                },
+                {
+                  "group": "left",
+                  "id": "0374ac59-6bf5-4f47-9c0b-66e7ca069c0a"
+                }
+              ]
+            },
+            "id": "666ad190-d2cf-4f0e-b5f9-8548bda199a5",
+            "zIndex": 19,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Backend services",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 379.7499999999999,
+              "y": 290
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Biometric Subsystem\n\nAccessibility Services\n\nOS Integrity\n\nKeychain / Keystore\n\nTEE / Secure Enclave "
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "16cc5ef5-f0bf-4ce5-b15a-105b3b421e79",
+            "zIndex": 20,
+            "data": {
+              "type": "tm.Text",
+              "name": "Biometric Subsystem\n\nAccessibility Services\n\nOS Integrity\n\nKeychain / Keystore\n\nTEE / Secure Enclave ",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 440,
+              "y": 160
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "App Login\nApp Integrity"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "0a968c0d-6745-412f-b0a3-dfe13733e24f",
+            "zIndex": 21,
+            "data": {
+              "type": "tm.Text",
+              "name": "App Login\nApp Integrity",
+              "hasOpenThreats": false
             }
           }
         ],
