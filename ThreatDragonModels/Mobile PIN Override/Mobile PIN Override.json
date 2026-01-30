@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 330.9999999999999,
-              "y": 90
+              "x": 330.99999999999955,
+              "y": 90.00000000000009
             },
             "size": {
               "width": 210,
@@ -109,7 +109,7 @@
             },
             "target": {
               "x": 330,
-              "y": 240
+              "y": 250
             },
             "vertices": [
               {
@@ -411,6 +411,120 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "162bb7bf-3098-42cc-85f6-867b2fcb8775",
+            "source": {
+              "x": 340,
+              "y": 400
+            },
+            "target": {
+              "cell": "f9461a0c-2718-4e90-acde-367878025502",
+              "port": "dbc1fe5f-dd87-4ae5-9d13-ba9c19478d20"
+            },
+            "vertices": [
+              {
+                "x": 340,
+                "y": 460
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "f6eb6ac9-9f30-42c2-8592-583273246e56",
+            "source": {
+              "x": 480,
+              "y": 490
+            },
+            "target": {
+              "x": 540,
+              "y": 400
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            },
+            "vertices": [
+              {
+                "x": 540,
+                "y": 470
+              }
+            ]
+          },
+          {
             "position": {
               "x": 690,
               "y": 139.99999999999997
@@ -535,8 +649,8 @@
           },
           {
             "position": {
-              "x": 300,
-              "y": 430
+              "x": 380.99999999999955,
+              "y": 450
             },
             "size": {
               "width": 110,
@@ -544,7 +658,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Malware injection"
+                "text": "Malware operations"
               },
               "body": {
                 "stroke": "#333333",
@@ -640,7 +754,7 @@
             "id": "f9461a0c-2718-4e90-acde-367878025502",
             "data": {
               "type": "tm.Process",
-              "name": "Malware injection",
+              "name": "Malware operations",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -967,16 +1081,16 @@
           },
           {
             "position": {
-              "x": 440,
-              "y": 160
+              "x": 447.5,
+              "y": 169.99999999999997
             },
             "size": {
-              "width": 112.5,
+              "width": 100,
               "height": 60
             },
             "attrs": {
               "text": {
-                "text": "App Login\nApp Integrity"
+                "text": "App Login\nRisk Checks"
               }
             },
             "visible": true,
@@ -985,7 +1099,7 @@
             "zIndex": 21,
             "data": {
               "type": "tm.Text",
-              "name": "App Login\nApp Integrity",
+              "name": "App Login\nRisk Checks",
               "hasOpenThreats": false
             }
           }
