@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 200,
-              "y": 110
+              "x": 155,
+              "y": 145
             },
             "size": {
               "width": 120,
@@ -524,10 +524,30 @@
             },
             "vertices": [
               {
-                "x": 340,
-                "y": 160
+                "x": 330,
+                "y": 210
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -779,7 +799,7 @@
           {
             "position": {
               "x": 420,
-              "y": 80
+              "y": 145
             },
             "size": {
               "width": 190,
@@ -1008,19 +1028,12 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
             "position": {
-              "x": 250,
-              "y": 370
+              "x": 445,
+              "y": 410
             },
             "size": {
               "width": 110,
@@ -1157,7 +1170,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "",
+              "name": "Biometrics",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1171,7 +1184,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              ""
+              "Biometrics"
             ],
             "id": "1f4c281d-e1a7-4889-b30c-7bc76ce175cf",
             "source": {
@@ -1185,19 +1198,11 @@
             "vertices": [
               {
                 "x": 80,
-                "y": 80
-              },
-              {
-                "x": 80,
                 "y": 100
               },
               {
-                "x": 120,
-                "y": 130
-              },
-              {
-                "x": 160,
-                "y": 150
+                "x": 110,
+                "y": 160
               }
             ]
           },
