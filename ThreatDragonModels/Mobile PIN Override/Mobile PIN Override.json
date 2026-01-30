@@ -33,8 +33,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "10764ff8-3848-4663-80b2-c279356390bc",
             "zIndex": -1,
+            "id": "10764ff8-3848-4663-80b2-c279356390bc",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Device OS",
@@ -61,8 +61,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "dbe49757-2049-4cef-b8a0-55da541dce96",
             "zIndex": -1,
+            "id": "dbe49757-2049-4cef-b8a0-55da541dce96",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "TWINT App",
@@ -86,14 +86,6 @@
             },
             "id": "23e0946c-a29a-4617-968b-6247af32211b",
             "zIndex": 0,
-            "source": {
-              "cell": "f40bd728-c645-4a93-9825-6f1dc5fb0226",
-              "port": "369b1f34-b3ee-4a63-9d51-cea088c8bb08"
-            },
-            "target": {
-              "x": 330,
-              "y": 240
-            },
             "data": {
               "type": "tm.Flow",
               "name": "Data Flow",
@@ -108,6 +100,14 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": []
+            },
+            "source": {
+              "cell": "f40bd728-c645-4a93-9825-6f1dc5fb0226",
+              "port": "369b1f34-b3ee-4a63-9d51-cea088c8bb08"
+            },
+            "target": {
+              "x": 330,
+              "y": 240
             },
             "vertices": [
               {
@@ -1026,12 +1026,37 @@
             ],
             "id": "bd3112ad-382e-4726-acd8-04646974ece3",
             "source": {
-              "x": 620,
+              "x": 600,
               "y": 150
             },
             "target": {
               "cell": "7dd16312-0a22-43c9-a04c-b253794efdfc",
               "port": "dbc1fe5f-dd87-4ae5-9d13-ba9c19478d20"
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           }
         ],
